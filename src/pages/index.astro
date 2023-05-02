@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Greeting from "../components/Greeting.jsx";
 const pageTitle = "Home Page";
 ---
 
@@ -7,4 +8,5 @@ const pageTitle = "Home Page";
     <h2>My awesome blog subtitle</h2>
     <h2>Astro</h2>
     <h3>Astro.build Site</h3>
+    <Greeting messages={["Hi", "Hello", "Howdy", "Hey there"]} />
 </BaseLayout>
